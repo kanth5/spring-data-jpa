@@ -30,5 +30,6 @@ public class TennisPlayerSpringDataApplication implements CommandLineRunner {
 		logger.info("\n\n>>Player with Id 2: {}\n", repo.findById(2));
 		repo.deleteById(2);
 		logger.info("\n\n>>All Players Data: {}\n", repo.findAll());
+		logger.info("\n\n>>Find By Nationality Austria: {}\n", repo.findByNationality("Austria"));
 	}
 }
