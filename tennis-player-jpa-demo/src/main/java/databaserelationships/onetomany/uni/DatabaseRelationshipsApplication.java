@@ -1,4 +1,4 @@
-package databaserelationships.onetomany;
+package databaserelationships.onetomany.uni;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
